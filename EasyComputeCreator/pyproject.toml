@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "EZComputeCreator"
+version = "0.1.0"
+description = ""
+
+authors = [
+    "Ian Brown <iannbrown12@gmail.com>"
+]
+
+readme = "README.md"
+repository = ""
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+envyaml = "^1.10.211231"
+click = "^8.0"
+coloredlogs = "^15.0"
+
+
+[tool.poetry.dev-dependencies]
+black = ">=21.12b0"
+isort = ">=5.10.1"
+pylint = ">=2.12.2"
+pytest = ">=6.2.5"
+pytest-cov = ">=3.0.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
