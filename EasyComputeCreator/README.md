@@ -1,4 +1,3 @@
-*Copyright © 2022 by Boston Consulting Group. All rights reserved*
 
 # README
 
