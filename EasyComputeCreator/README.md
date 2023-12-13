@@ -1,8 +1,5 @@
-*Copyright © 2022 by Boston Consulting Group. All rights reserved*
 
 # README
-
-A template for python apps
 
 - [README](#readme)
   - [Getting Started](#getting-started)
