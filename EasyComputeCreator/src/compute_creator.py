@@ -7,13 +7,13 @@ import boto3
 from azure.mgmt.compute import ComputeManagementClient
 from envyaml import EnvYAML
 
-from src.utils.schemas.compute_input import (
+from EasyComputeCreator.src.utils.schemas.compute_input import (
     EC2Config,
     AWSAccessKey, ComputeType, ComputeSchema, AVMConfig, GCEConfig, GCPAccessKey, AzureAccessKey,
 )
-from src.utils.service.aws import AWSClient
-from src.utils.service.azure import AzureClient
-from src.utils.service.gcp import GCPClient
+from EasyComputeCreator.src.utils.service.aws import AWSClient
+from EasyComputeCreator.src.utils.service.azure import AzureClient
+from EasyComputeCreator.src.utils.service.gcp import GCPClient
 
 logger = logging.getLogger(__name__)
 
